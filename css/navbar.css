@@ -4,6 +4,8 @@
 }
 .textos{
     color: black;
+    font-weight: bold;
+    
 }
 footer{
     background-color: white;
@@ -11,4 +13,9 @@ footer{
     text-align: center;
     clear: both;
 
+}
+a:hover{
+    background-color: cornflowerblue;
+    border-radius: 20px; /*borde redondito*/
+    padding: 15px;
 }
