@@ -44,7 +44,7 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-    clear: inline-end;
+    clear: inline-end;/*Arreglar el desplazamintoen ventanas con poco contenido*/
 }
 
 .navbar{
@@ -56,4 +56,8 @@ a:hover{
     background-color: cornflowerblue;
     border-radius: 20px; /*borde redondito*/
     padding: 15px;
+}
+
+.btn{
+    background-color: var(--button-color);
 }
