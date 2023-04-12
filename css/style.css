@@ -1,0 +1,59 @@
+:root {
+    --first-color: rgb(16, 37, 66);
+    --second-color: rgb(14, 39, 70);
+    --third-color: rgb(18, 51, 91);
+    --fourth-color: rgb(180, 248, 251);
+    --fifth-color: rgb(189, 255, 255);
+    --button-color: rgb(157, 208, 204);
+    --white-color: rgb(255, 255, 255);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background-color: var(--first-color);
+    min-height: 100%;
+    margin: 0;
+    margin-bottom: relative;
+}
+
+header{
+    background-color: var(--white-color);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+main{
+    padding: 10%;
+}
+
+footer{
+    background-color: var(--white-color);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    clear: inline-end;
+}
+
+.navbar{
+    color: black;
+    font-weight: bold;    
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    border-radius: 20px; /*borde redondito*/
+    padding: 15px;
+}
