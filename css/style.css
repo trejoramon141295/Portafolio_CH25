@@ -1,3 +1,5 @@
+@import url(./acercaDeMi.css);
+
 :root {
     --first-color: rgb(16, 37, 66);
     --second-color: rgb(14, 39, 70);
@@ -40,9 +42,10 @@ main{
 
 footer{
     background-color: var(--white-color);
-    position: sticky;
-    bottom: 0;
+    position: fixed;
+    bottom: 0;  
     width: 100%;
+    z-index: 2;
     text-align: center;
     clear: inline-end;/*Arreglar el desplazamintoen ventanas con poco contenido*/
 }
@@ -56,8 +59,4 @@ a:hover{
     background-color: cornflowerblue;
     border-radius: 20px; /*borde redondito*/
     padding: 15px;
-}
-
-.btn{
-    background-color: var(--button-color);
 }

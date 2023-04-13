@@ -1,14 +1,31 @@
-.imgPrincipal{  
-   
-
-    display: flex;  
-    width: 200px; 
-    height:200px;
+.imgPrincipal{
+    display: block;
+    margin: 25px auto;
+    border-radius: 50%;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border: 5px solid var(--white-color) ;
 }
 
 h1,h2{
     background-color: var(--third-color);
     text-align: center;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
+    padding-left: 1rem;
+}
+
+.btn{
+    background-color: var(--button-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-content{
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-weight: normal;
+    text-align: center;
 }
