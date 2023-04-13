@@ -1,4 +1,7 @@
 @import url(./acercaDeMi.css);
+@import url(./proyectos.css);
+
+/*Para llevarme los colores a otra hojas*/
 
 :root {
     --first-color: rgb(16, 37, 66);
@@ -42,7 +45,7 @@ main{
 
 footer{
     background-color: var(--white-color);
-    position: fixed;
+    position: sticky;
     bottom: 0;  
     width: 100%;
     z-index: 2;

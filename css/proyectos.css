@@ -1,0 +1,13 @@
+.card{
+    background-color: var(--third-color);
+    border-radius: 10%;
+    color: var(--white-color);
+    font-weight: normal;
+    text-align: center;
+    border: 5px solid var( --fourth-color) ;
+    margin: 25px 10px;
+}
+
+.card-img-top{
+    border-radius: 10%;
+}

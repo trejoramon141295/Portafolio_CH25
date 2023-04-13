@@ -24,6 +24,7 @@ h1,h2{
 }
 
 .modal-content{
+    border-radius: 10%;
     background-color: var(--first-color);
     color: var(--white-color);
     font-weight: normal;
