@@ -1,5 +1,6 @@
 @import url(./acercaDeMi.css);
 @import url(./proyectos.css);
+@import url(./contacto.css);
 
 /*Para llevarme los colores a otra hojas*/
 
@@ -40,22 +41,31 @@ header{
 }
 
 main{
-    padding: 10%;
+    margin: 2rem 2rem 10rem;
+    position: relative;
 }
 
 footer{
     background-color: var(--white-color);
-    position: sticky;
+    position: fixed;
     bottom: 0;  
     width: 100%;
     z-index: 2;
     text-align: center;
-    clear: inline-end;/*Arreglar el desplazamintoen ventanas con poco contenido*/
 }
 
 .navbar{
     color: black;
     font-weight: bold;    
+}
+
+
+.btn{
+    background-color: var(--button-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
 }
 
 a:hover{

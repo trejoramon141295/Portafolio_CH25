@@ -1,0 +1,12 @@
+.contacto{
+    display: block;
+    background-color: var(--third-color);
+    padding: 5%;
+    border-radius: 3rem;
+    margin: auto;
+    color: var(--white-color);
+} 
+
+.form-group{
+    margin: 2rem;
+}
